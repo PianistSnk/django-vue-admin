@@ -99,12 +99,15 @@ WSGI_APPLICATION = "application.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": DATABASE_ENGINE,
-        "NAME": DATABASE_NAME,
-        "USER": DATABASE_USER,
-        "PASSWORD": DATABASE_PASSWORD,
-        "HOST": DATABASE_HOST,
-        "PORT": DATABASE_PORT,
+        'ENGINE': 'django.db.backends.mysql',
+        'client_encoding': 'UTF8',
+        # 'default_transaction_isolation': 'read committed',
+        'NAME': 'wechatproject',
+        'USER': 'root',
+        'PASSWORD': 'Sj__1216',
+        'HOST': 'rm-m5e248b1c4mtitq20jo.mysql.rds.aliyuncs.com',
+        'PORT': '3306',
+        'default-character-set': 'utf8'
     }
 }
 AUTH_USER_MODEL = "system.Users"
