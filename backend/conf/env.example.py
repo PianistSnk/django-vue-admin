@@ -7,12 +7,12 @@ from application.settings import BASE_DIR
 # ================================================= #
 # 数据库 ENGINE ，默认演示使用 sqlite3 数据库，正式环境建议使用 mysql 数据库
 # sqlite3 设置
-DATABASE_ENGINE = "django.db.backends.mysql"
-DATABASE_NAME = os.path.join(BASE_DIR, "db.mysql")
+# DATABASE_ENGINE = "django.db.backends.mysql"
+# DATABASE_NAME = os.path.join(BASE_DIR, "db.mysql")
 
 # 使用mysql时，改为此配置
-# DATABASE_ENGINE = "django.db.backends.mysql"
-# DATABASE_NAME = 'django-vue-admin' # mysql 时使用
+DATABASE_ENGINE = "django.db.backends.mysql"
+DATABASE_NAME = 'django-vue-admin' # mysql 时使用
 
 # 数据库地址 改为自己数据库地址
 DATABASE_HOST = 'rm-m5e248b1c4mtitq20jo.mysql.rds.aliyuncs.com'
