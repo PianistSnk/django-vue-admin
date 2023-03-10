@@ -194,3 +194,4 @@ docker-compose up -d --build
 
 
 
+# django-vue-admin
