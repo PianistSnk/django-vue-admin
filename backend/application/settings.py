@@ -109,7 +109,6 @@ DATABASES = {
         'PORT': '3306',
         'default-character-set': 'utf8'
 
-
     }
 }
 AUTH_USER_MODEL = "system.Users"
