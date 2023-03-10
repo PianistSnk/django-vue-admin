@@ -108,7 +108,6 @@ DATABASES = {
         'HOST': 'rm-m5e248b1c4mtitq20jo.mysql.rds.aliyuncs.com',
         'PORT': '3306',
         'default-character-set': 'utf8'
-
     }
 }
 AUTH_USER_MODEL = "system.Users"
