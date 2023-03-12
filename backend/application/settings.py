@@ -102,7 +102,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'client_encoding': 'UTF8',
         # 'default_transaction_isolation': 'read committed',
-        'NAME': 'wechatproject',
+        'NAME': 'django-vue-admin',
         'USER': 'root',
         'PASSWORD': 'Sj__1216',
         'HOST': 'rm-m5e248b1c4mtitq20jo.mysql.rds.aliyuncs.com',
